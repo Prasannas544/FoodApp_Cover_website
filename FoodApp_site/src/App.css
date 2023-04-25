@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.text {
+margin-left: 4rem;
+}
+
+.text h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 121px;
+  line-height: 105px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+p,a {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  
+  color: #FFFFFF;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  width: 100vw;
+  background-image: url('../src/assets/Appbg.png');
+}
